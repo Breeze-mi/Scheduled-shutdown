@@ -21,7 +21,7 @@ echo.
 
 :: 输入循环
 :input
-set /p "minutes=请输入关机延迟时间(分钟): "
+set /p "minutes=请输入倒计时关机的时长(分钟): "
 
 :: 输入验证
 if "%minutes%"=="" (
